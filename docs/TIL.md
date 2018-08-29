@@ -39,3 +39,4 @@
 
 # 20180829
 - CR 과 LF의 정의 및 히스토리
+- Jest(https://medium.com/@koalamango/javascript-automated-testing-with-jasmine-karma-and-travis-c118a98223d9)
