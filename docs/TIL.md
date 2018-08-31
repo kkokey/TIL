@@ -40,3 +40,9 @@
 # 20180829
 - CR 과 LF의 정의 및 히스토리
 - Jest(https://medium.com/@koalamango/javascript-automated-testing-with-jasmine-karma-and-travis-c118a98223d9)
+
+# 20180830
+
+# 20180831
+- Vue에서 mysql을 사용하는 방안 찾아서 적용할 것.
+- https://segmentfault.com/a/1190000008176208
