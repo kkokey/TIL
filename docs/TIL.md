@@ -1,3 +1,13 @@
+# 20180912
+## Fatal vs Panic in golang
+- fatal과 panic의 차이
+
+# 20180911
+## landbook 서비스, disco 서비스
+- 부동산 관련 서비스
+## Java로 만들어진 블록체인 엔진
+- corda(https://github.com/corda/corda) 주 언어가 kotlin
+
 # 20180910
 ## Go 언어에서 import한 객체를 사용하는 방법.
 - Class를 따로 생성하지 않고 해당 명칭 그대로 사용하여 메소드를 call한다.
