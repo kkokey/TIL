@@ -1,6 +1,8 @@
 # 20180912
 ## Fatal vs Panic in golang
 - fatal과 panic의 차이
+- Ginkgo
+- BDD
 
 # 20180911
 ## landbook 서비스, disco 서비스
