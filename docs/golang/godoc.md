@@ -21,6 +21,7 @@ help	Help
 - 각각의 폴더가 없으면 오류 메시지를 보여줍니다.
 
 기본적으로 package 의 주석은 아래처럼 package 의 상단에 적어주시면 됩니다.
+##### > package의 상단 주석 예제
 <pre><code>
 // p2p network communication package in server.
 package p2p
@@ -28,7 +29,7 @@ package p2p
 
 같은 패키지에 있는 모든 파일의 상단에 패키지 주석을 적으시면 여러개의 주석이 한꺼번에 표시 됩니다.
 
-###### const의 상단의 주석 예제
+##### > const의 상단 주석 예제
 <pre><code>
 // Node Buffer Size
 //
@@ -36,7 +37,7 @@ package p2p
 const ReadBufferSize = 1024
 </code></pre>
 
-###### method의 상단의 주석 예제
+##### > method의 상단 주석 예제
 <pre><code>
 // Create new server object
 func NewServer(ip string, port int) *Server {
@@ -51,6 +52,6 @@ func NewServer(ip string, port int) *Server {
 }
 </code></pre>
 
-###### Reference
+##### Reference
 - http://elliot.land/post/godoc-tips-tricks
 
