@@ -41,14 +41,14 @@ const ReadBufferSize = 1024
 <pre><code>
 // Create new server object
 func NewServer(ip string, port int) *Server {
-	return &Server{
-		ip:       ip,
-		port:     port,
-		closing:  make(chan bool),
-		closed:   make(chan bool),
-		Ready:    make(chan bool),
-		Accepted: make(chan *Peer),
-	}
+        return &Server{
+                ip:       ip,
+                port:     port,
+                closing:  make(chan bool),
+                closed:   make(chan bool),
+                Ready:    make(chan bool),
+                Accepted: make(chan *Peer),
+        }
 }
 </code></pre>
 
