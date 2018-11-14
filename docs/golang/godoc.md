@@ -11,32 +11,33 @@ godoc -http=:8000 -v -goroot $GOPATH/src/github.com/.../...
 godoc을 사용하여 웹 문서를 생성하면 https://golang.org/ 과 같은 페이지가 생성 됩니다.
 
 각각 Documents, Packages, The Project, Help, Blog, 검색창이 나오게 되는데 각 메뉴 별로 상단에 -goroot 에서 설정한 경로의 폴더로 매칭이 됩니다.
-
+<pre><code>
 폴더	메뉴
 doc	Documents
 pkg	Packages
 project	The Project
 help	Help
-나중에 goroot 의 위치를 지정하거나 그 외 설정정보를 어떻게 정의해야 할지 의논 해서 정하면 좋을 것 같습니다. 
-
-각각의 폴더가 없으면 오류 메시지를 보여줍니다.
+</code></pre>
+- 각각의 폴더가 없으면 오류 메시지를 보여줍니다.
 
 기본적으로 package 의 주석은 아래처럼 package 의 상단에 적어주시면 됩니다.
-
+<pre><code>
 // p2p network communication package in server.
 package p2p
+</code></pre>
 
 같은 패키지에 있는 모든 파일의 상단에 패키지 주석을 적으시면 여러개의 주석이 한꺼번에 표시 됩니다.
 
-const의 상단의 주석 예제
-
+###### const의 상단의 주석 예제
+<pre><code>
 // Node Buffer Size
 //
 // Define ReadBuffer
 const ReadBufferSize = 1024
+</code></pre>
 
-method의 상단의 주석 예제
-
+###### method의 상단의 주석 예제
+<pre><code>
 // Create new server object
 func NewServer(ip string, port int) *Server {
 	return &Server{
@@ -48,7 +49,8 @@ func NewServer(ip string, port int) *Server {
 		Accepted: make(chan *Peer),
 	}
 }
+</code></pre>
 
-위 정보는 수집한 정보입니다.
-http://elliot.land/post/godoc-tips-tricks
+###### Reference
+- http://elliot.land/post/godoc-tips-tricks
 
