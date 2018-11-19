@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders the loading screen 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4d4d4d",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "flex": 0,
+              "height": 340,
+              "marginTop": 100,
+              "resizeMode": "stretch",
+              "width": 340,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`App snapshot renders the root without loading screen 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={null}
+  >
+    <View
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#4d4d4d",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "flex": 0,
+              "height": 340,
+              "marginTop": 100,
+              "resizeMode": "stretch",
+              "width": 340,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
