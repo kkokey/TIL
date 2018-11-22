@@ -25,3 +25,12 @@ specific app**
 from https://gist.github.com/lsd/1e1826907ab7e49c536a#file-ideavim-os-x-key-repeat-markdown
 
 - Goland: `defaults write com.jetbrains.Goland ApplePressAndHoldEnabled -bool false`
+
+defaults write -g InitialKeyRepeat -int 10   # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1           # normal minimum is 2 (30 ms)
+
+맥에서 최대한 빠른 걸로 설정 할 경우 아래 값이 적용된다.
+- InitialKeyRepeat : 15
+- KeyRepeat        : 2
+
+마이너스 값을 사용할 경우 너무 빠르게 눌려서 문제가 생길 수 있으니 0 이하로는 세팅하지 않는 것이 좋다.(권장)
