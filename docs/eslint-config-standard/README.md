@@ -1,4 +1,4 @@
-### config eslint command
+## Config eslint command
 
 #### Install eslint
 `npm install --save-dev eslint`
