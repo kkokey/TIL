@@ -3,7 +3,7 @@
 #### Install eslint
 `npm install --save-dev eslint`
 
-#### add config default
+#### run config setting
 `./node_modules/.bin/eslint --init`
 
 
