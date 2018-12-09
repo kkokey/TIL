@@ -47,3 +47,7 @@
  * M : 파일 북마크 글로벌임.
  *
  */
+ 
+ ----
+ 사용하면서 필요하여 추가한 내용
+ - Ctrl + v : blockwise-visual mode
