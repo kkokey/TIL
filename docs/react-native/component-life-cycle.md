@@ -19,8 +19,8 @@ constructor(props) {
 ```
 
 #### static getDerivedStateFromProps()
--> 이 메소드가 호출되면 새로운 props 정보를 받아오게 됩니다.
--> 아래 예제와 같은 형태로 `state` 의 값을 변경하게 됩니다.
+- 이 메소드가 호출되면 새로운 props 정보를 받아오게 됩니다.
+- 아래 예제와 같은 형태로 `state` 의 값을 변경하게 됩니다.
 
 ##### code example
 ```bash
