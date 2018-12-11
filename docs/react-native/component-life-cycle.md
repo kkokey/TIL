@@ -3,10 +3,10 @@
 <img src="https://raw.githubusercontent.com/kkokey/TIL/master/docs/react-native/component-life-cycle.png" width="" height=""></img>
 
 #### constructor
--> 이 메소드는 컴포넌트가 생성될 때 실행됩니다.
--> constructor는 컴포넌트가 생성될 때 기본 필드와 데이터들을 초기화 합니다.
--> 여기서 `this.setState()` 는 호출하지 마십시오.
--> `super(props)`가 실행되면 `this.props` 를 사용 할 수 있게 됩니다.
+- 이 메소드는 컴포넌트가 생성될 때 실행됩니다.
+- constructor는 컴포넌트가 생성될 때 기본 필드와 데이터들을 초기화 합니다.
+- 여기서 `this.setState()` 는 호출하지 마십시오.
+- `super(props)`가 실행되면 `this.props` 를 사용 할 수 있게 됩니다.
 
 ##### code example
 ```bash
