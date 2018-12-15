@@ -2,146 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21c29ab-468f-42de-b8fb-f2bc3b080fd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../docs/scala/WeatherNotiSBT/.idea/modules/WeatherNotiSBT-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../docs/scala/WeatherNotiSBT/.idea/modules/WeatherNotiSBT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../docs/scala/WeatherNotiSBT/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../react-native-sample/react-native-sample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/scala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/libraries/sbt__net_minidev_json_smart_1_0_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/libraries/sbt__org_scalaj_scalaj_http_2_12_2_4_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/libraries/scala_sdk_2_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/modules/WeatherNotiSBT-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/modules/WeatherNotiSBT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/src/main/scala/WeatherNoti.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/.history" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/classes/WeatherNoti$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/classes/WeatherNoti.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sbt_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sbt_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sources_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt$sources_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/default/weathernotisbt_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sbt_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sbt_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sbt_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sbt_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sbt_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt$sources_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/default-weathernotisbt_2.12-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/constants/Colors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/navigation/MainTabNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/HomeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/StatusScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/StatusScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-native-sample/react-native-sample.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/WeatherNotiSBT/src/main/scala/WeatherNoti.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/src/main/scala/WeatherNoti.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -212,7 +88,6 @@
         <option value="$PROJECT_DIR$/component/List.js" />
         <option value="$PROJECT_DIR$/stores/model/wallet.js" />
         <option value="$PROJECT_DIR$/babel.config.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/stores/service/Wallets.js" />
         <option value="$PROJECT_DIR$/stores/service/Wallets.test.js" />
         <option value="$PROJECT_DIR$/stores/service/ListEx.js" />
@@ -221,6 +96,7 @@
         <option value="$PROJECT_DIR$/stores/index.js" />
         <option value="$PROJECT_DIR$/container/AppMain.js" />
         <option value="$PROJECT_DIR$/container/__tests__/AppMain-test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -320,7 +196,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544881607659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544881891277" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -373,12 +249,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544678599625</updated>
       <workItem from="1544678603423" duration="15371000" />
-      <workItem from="1544878345118" duration="3178000" />
+      <workItem from="1544878345118" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18549000" />
+    <option name="totallyTimeSpent" value="18832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="859" height="933" extended-state="0" />
@@ -551,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
