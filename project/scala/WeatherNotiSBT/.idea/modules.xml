@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherNotiSBT.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherNotiSBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherNotiSBT-build.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherNotiSBT-build.iml" />
+    </modules>
+  </component>
+</project>
