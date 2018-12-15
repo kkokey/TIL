@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AppMain 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f2f2f2",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <Text>
+          MAIN
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
