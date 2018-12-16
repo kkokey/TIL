@@ -43,7 +43,7 @@ const walletListStyles = StyleSheet.create({
     this.state = {
       name: '',
       refreshing: false,
-      data: this.props.WalletsStore,
+      data: this.props.ListStore,
     };
   }
 
@@ -86,21 +86,6 @@ const walletListStyles = StyleSheet.create({
 
   @action
   async fetchHistoryFromApi(accountAddr){
-    const URL = `${Utils.serverUrl()}/request/gettransactions?address=${accountAddr}`;
-    try {
-      const fetchResult = fetch(URL);
-      return await fetchResult
-        .then((response) => response.json())
-        .then((resJson) => {
-          this.setState({
-            tranList: resJson.data,
-            lastTran: resJson.data[0].timestamp,
-          });
-          return resJson;
-        });
-    } catch (error) {
-      console.error(error);
-    }
     return '';
   }
 
@@ -125,45 +110,11 @@ const walletListStyles = StyleSheet.create({
     const { navigate } = this.props.navigation;
     // console.log(this.props.navigation);
     return (
-      <FlatList
-        data={this.state.data}
-        renderItem={({ item }) =>
-          <Touchable
-            style={walletListStyles.option}
-            background={Touchable.Ripple('#ccc', false)}
-            onPress={() => navigate('detail', { account: item.walletAddr, balance: item.balance, balanceLbt: item.balanceLbt, lastTransaction: item.lastTran, priKey: item.priKey, pubKey: item.pubKey })}>
-            <View style={{ flexDirection: 'row' }}>
-              <View style={walletListStyles.optionIconContainer}>
-                <Text>!!</Text>
-              </View>
-              <View style={walletListStyles.optionIconContainer}>
-                <Text style={walletListStyles.optionText}>
-                  Name: {item.name}
-                </Text>
-                <Text style={walletListStyles.addressText}>
-                  Address: {item.walletAddr}
-                </Text>
-                <Text style={walletListStyles.optionText}>
-                  {Utils.numberWithCommas(item.balance)} LBK / {Utils.numberWithCommas(item.balanceLbt)} LBT
-                </Text>
-                {item.lastTran !== '' ?
-                  (
-                    <Text style={walletListStyles.optionText}>
-                      LastTransaction: {Utils.getDateStr(this.state.lastTran)}
-                    </Text>
-                  ) : (
-                    <Text style={walletListStyles.optionText}>
-                      LastTransaction: -
-                    </Text>
-                  )
-                }
-              </View>
-            </View>
-          </Touchable>
-        }
-        keyExtractor={(item, index) => index.toString()}
-        extraData={this.state}
-      />
+      <View style={{ flexDirection: 'row' }}>
+        <View style={walletListStyles.optionIconContainer}>
+          <Text>!!</Text>
+        </View>
+      </View>
     );
   }
 
