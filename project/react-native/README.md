@@ -4,10 +4,15 @@
 
 #### install
 ```bash
-$yarn or yarn install
+$ yarn or yarn install
 ```
 
 #### test
 ```bash
-yarn test
+$ yarn test
+```
+
+#### run
+```bash
+$ yarn start
 ```
