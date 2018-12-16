@@ -106,22 +106,9 @@ const walletListStyles = StyleSheet.create({
 
   @action
   async fetchFromApi(addr, pubKey, priKey) {
-    if( addr === '' || pubKey === '' || priKey === '') {
-      addr = '0x6f085df4022b83c80e6c61caf5ccbe128755cf874a28c2';
-      pubKey = '82df74db81fd0c1072aa0a6679a9ad34b36899044512c68b13edc0d91dcbee7d';
-      priKey = 'e201ef79c6dd79b7611d94b4ba877d7c18855a60aaa7cf6b00057a726456336c';
-    }
-    console.log('fetchFromApi');
-    console.log(this.props.walletListStore);
-    await this.props.walletListStore.addCustomLubicsWallet('지갑',addr, priKey, pubKey);
+    let resPromise = this.props.listService.ExListPost();
+    await resPromise.then( (promiseData) => {
 
-    // addr = '0x6fb6085c3fdba5f30bf6b66fcc0902d5d946f464743846';
-    // priKey = 'a44c7d1c99f28c5be57bade8b1162e39d8ce31586bdc70f700057a0d7626810e';
-    // pubKey = 'a78053952ae664e40b21ea06d2b36e50679086afbecd6a0f9d83c53df53f2432';
-    // await this.props.walletListStore.addCustomLubicsWallet('지갑',addr, priKey, pubKey);
-    console.log('fetchFromApi!!!!!!');
-    this.setState({
-      data: this.props.walletListStore.walletList
     });
   }
 
