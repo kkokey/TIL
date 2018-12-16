@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21c29ab-468f-42de-b8fb-f2bc3b080fd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/component/__tests__/List-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/__tests__/__snapshots__/List-test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/__tests__/Utils-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/constants/Colors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/navigation/MainTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/navigation/MainTabNavigator.js" afterDir="false" />
@@ -11,7 +11,14 @@
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/HomeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/StatusScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/react-native/AwesomeProject/screens/StatusScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/__tests__/List-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/__tests__/List-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/__tests__/__snapshots__/List-test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/component/__tests__/__snapshots__/List-test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores/service/ListEx.js" beforeDir="false" afterPath="$PROJECT_DIR$/stores/service/ListEx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores/service/ListEx.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/stores/service/ListEx.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala/WeatherNotiSBT/src/main/scala/WeatherNoti.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/WeatherNotiSBT/src/main/scala/WeatherNoti.scala" afterDir="false" />
     </list>
@@ -21,18 +28,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/component/__tests__/List-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/react_native$Utils_should_return_api_server_url.info" NAME="Utils.should return api server url Coverage Results" MODIFIED="1544937443851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Utils_should_return_string___.info" NAME="Utils.should return string -  Coverage Results" MODIFIED="1544937249160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$components_snapshot.info" NAME="components snapshot Coverage Results" MODIFIED="1544935966721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Request_the_api_by_axios_request_post_response_List.info" NAME="Request the api by axios.request post response List Coverage Results" MODIFIED="1544936598202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Utils_should_timestamp_to_date.info" NAME="Utils.should timestamp to date Coverage Results" MODIFIED="1544937160441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Utils_should_return_number_with_comman.info" NAME="Utils.should return number with comman Coverage Results" MODIFIED="1544937339800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Utils_should_return_zero.info" NAME="Utils.should return zero Coverage Results" MODIFIED="1544937380462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_native$Request_the_api_by_axios_request_get_response_List.info" NAME="Request the api by axios.request get response List Coverage Results" MODIFIED="1544936645193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="162" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,9 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Wallet</find>
-      <find>this.state</find>
-      <find>renderButton</find>
       <find>AppNavi</find>
       <find>stores/index.js</find>
       <find>walletsStore</find>
@@ -68,6 +75,14 @@
       <find>ListExService</find>
       <find>navigato</find>
       <find>navigate</find>
+      <find>re</find>
+      <find>babel</find>
+      <find>metro-react-native-babel-preset</find>
+      <find>AccessibilityInfo</find>
+      <find>@ob</find>
+      <find>babel-preset-re</find>
+      <find>react</find>
+      <find>react-native</find>
     </findStrings>
     <replaceStrings>
       <replace>\</replace>
@@ -87,18 +102,23 @@
         <option value="$PROJECT_DIR$/navigation/Navigator.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/stores/model/wallet.js" />
-        <option value="$PROJECT_DIR$/babel.config.js" />
         <option value="$PROJECT_DIR$/stores/service/Wallets.js" />
         <option value="$PROJECT_DIR$/stores/service/Wallets.test.js" />
-        <option value="$PROJECT_DIR$/stores/service/ListEx.js" />
         <option value="$PROJECT_DIR$/stores/model/modelEx.js" />
-        <option value="$PROJECT_DIR$/stores/service/ListEx.test.js" />
         <option value="$PROJECT_DIR$/stores/index.js" />
         <option value="$PROJECT_DIR$/container/AppMain.js" />
         <option value="$PROJECT_DIR$/container/__tests__/AppMain-test.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/component/List.js" />
+        <option value="$PROJECT_DIR$/jest-config.js" />
+        <option value="$PROJECT_DIR$/.babelrc.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/babel.config.js" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/stores/service/ListEx.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/stores/service/ListEx.test.js" />
         <option value="$PROJECT_DIR$/component/__tests__/List-test.js" />
+        <option value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
       </list>
     </option>
   </component>
@@ -115,7 +135,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="859" />
+    <option name="width" value="923" />
     <option name="height" value="933" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -163,6 +183,12 @@
             <path>
               <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-native" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-native" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,7 +230,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544932291231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544937551426" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -218,10 +244,11 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -246,6 +273,111 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.Utils.should return api server url">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
+      <test-names>
+        <test-name value="Utils" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils.should return api server url" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
+      <test-names>
+        <test-name value="Utils" />
+        <test-name value="should return api server url" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils.should return number with comman" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
+      <test-names>
+        <test-name value="Utils" />
+        <test-name value="should return number with comman" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils.should return string - " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
+      <test-names>
+        <test-name value="Utils" />
+        <test-name value="should return string - " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Utils.should return zero" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/constants/__tests__/Utils-test.js" />
+      <test-names>
+        <test-name value="Utils" />
+        <test-name value="should return zero" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" />
+      <node-options value="" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Utils.should return string - " />
+      <item itemvalue="Jest.Utils.should return number with comman" />
+      <item itemvalue="Jest.Utils.should return zero" />
+      <item itemvalue="Jest.Utils" />
+      <item itemvalue="Jest.Utils.should return api server url" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Utils.should return api server url" />
+        <item itemvalue="Jest.Utils" />
+        <item itemvalue="Jest.Utils.should return zero" />
+        <item itemvalue="Jest.Utils.should return number with comman" />
+        <item itemvalue="Jest.Utils.should return string - " />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -257,18 +389,49 @@
       <option name="presentableId" value="Default" />
       <updated>1544678599625</updated>
       <workItem from="1544678603423" duration="15371000" />
-      <workItem from="1544878345118" duration="4518000" />
+      <workItem from="1544878345118" duration="9742000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Utils_should_timestamp_to_date - 2018.12.16 at 14h 12m 40s.xml">
+      <configuration name="Utils.should timestamp to date" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_string_-_ - 2018.12.16 at 14h 13m 58s.xml">
+      <configuration name="Utils.should return string - " configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_string_-_ - 2018.12.16 at 14h 14m 09s.xml">
+      <configuration name="Utils.should return string - " configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_number_with_comman - 2018.12.16 at 14h 15m 18s.xml">
+      <configuration name="Utils.should return number with comman" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_number_with_comman - 2018.12.16 at 14h 15m 20s.xml">
+      <configuration name="Utils.should return number with comman" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_number_with_comman - 2018.12.16 at 14h 15m 39s.xml">
+      <configuration name="Utils.should return number with comman" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_zero - 2018.12.16 at 14h 16m 20s.xml">
+      <configuration name="Utils.should return zero" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils - 2018.12.16 at 14h 16m 28s.xml">
+      <configuration name="Utils" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_api_server_url - 2018.12.16 at 14h 17m 05s.xml">
+      <configuration name="Utils.should return api server url" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Utils_should_return_api_server_url - 2018.12.16 at 14h 17m 23s.xml">
+      <configuration name="Utils.should return api server url" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19889000" />
+    <option name="totallyTimeSpent" value="25113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="859" height="933" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="923" height="933" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23155504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,19 +440,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499388" weight="0.32619646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39924434" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39042822" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.499388" weight="0.39042822" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500612" side_tool="true" weight="0.3299748" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="RNConsole" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.30533484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,9 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -336,13 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -363,13 +517,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/axios/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stores/model/modelEx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stores/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -384,24 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.watchmanconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -412,38 +545,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stores/service/ListEx.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="37" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/container/__tests__/AppMain-test.js">
+    <entry file="file://$PROJECT_DIR$/jest-config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stores/service/ListEx.js">
+    <entry file="file://$PROJECT_DIR$/stores/service/ListEx.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component/List.js">
+    <entry file="file://$PROJECT_DIR$/stores/service/ListEx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="124" column="36" lean-forward="true" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="46" />
+        <state relative-caret-position="420">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stores/model/modelEx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/__tests__/AppMain-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component/__tests__/List-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants/__tests__/Utils-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

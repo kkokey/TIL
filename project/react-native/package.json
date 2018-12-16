@@ -8,20 +8,25 @@
     "test": "node ./node_modules/jest/bin/jest.js --watchAll"
   },
   "jest": {
-    "preset": "jest-expo"
+    "transform": {}
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-native": "^4.0.1",
     "eslint": "^5.10.0",
     "expo": "^31.0.2",
     "jest": "^23.6.0",
     "jest-expo": "^31.0.0",
+    "metro-react-native-babel-preset": "^0.48.5",
     "mobx": "^5.8.0",
     "mobx-react": "^5.4.3",
     "qrcode-reader": "^1.0.4",
     "react": "16.5.0",
     "react-dom": "^16.6.3",
-    "react-native": "^0.57.7",
+    "react-native": "^0.57.8",
     "react-native-action-button": "^2.8.5",
     "react-native-modal": "^7.0.2",
     "react-native-platform-touchable": "^1.1.1",
@@ -29,7 +34,11 @@
     "react-test-renderer": "^16.6.3"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "@babel/core": "^7.2.2",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-expo": "^5.0.0",
+    "regenerator-runtime": "^0.13.1"
   },
   "private": true
 }

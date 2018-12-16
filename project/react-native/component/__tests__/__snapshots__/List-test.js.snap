@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders AppMain 1`] = `
+exports[`components snapshot should renders List component 1`] = `
 <RCTScrollView
   disableVirtualization={false}
   extraData={

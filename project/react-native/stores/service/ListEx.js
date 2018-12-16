@@ -17,8 +17,8 @@ class ListEx {
         .then(res => {
           resolve(res.data.data);
         }).catch(err => {
-        reject(err);
-      });
+          reject(err);
+        });
     });
   }
 
