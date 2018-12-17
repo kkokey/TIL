@@ -3,10 +3,14 @@ import React from 'react';
 import AppMain from '../AppMain';
 import renderer from 'react-test-renderer';
 import ListEx from "../../stores/service/ListEx";
+import List from "../../component/List";
 
-it('renders AppMain', () => {
-  const store = new ListEx();
-  const tree = renderer.create(<AppMain ListStore={store}/>).toJSON();
+describe('App screen', () => {
+  it('should renders AppMain', () => {
+    const store = new ListEx();
+    const navigation = { navigate: jest.fn() };
+    const mainRenderJSON = renderer.create(<AppMain listStore={store} navigation={navigation}/>).toJSON();
 
-  expect(tree).toMatchSnapshot();
+    expect(mainRenderJSON).toMatchSnapshot();
+  });
 });

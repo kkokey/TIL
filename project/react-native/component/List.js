@@ -43,46 +43,57 @@ const walletListStyles = StyleSheet.create({
     this.state = {
       name: '',
       refreshing: false,
-      data: this.props.ListStore,
+      data: this.props.listStore
     };
+    const promiseList = this.props.listStore.ExListGet();
+    promiseList.then(val => {
+      const rsJson = JSON.parse(val);
+      this.setState({
+        data: rsJson.data
+      });
+    });
   }
 
-  static getDerivedStateFromProps(nextProps, prevState) {
-    return {
-      data: prevState.data
-    };
-  }
+  // static getDerivedStateFromProps(nextProps, prevState) {
+  //   return {
+  //     data: prevState.data
+  //   };
+  // }
 
 
-  componentDidMount() {
-    this.fetchFromApi('', '', '');
-  }
+  // componentDidMount() {
+  //   this.fetchFromApi('', '', '');
+  // }
 
-  getSnapshotBeforeUpdate(prevProps, prevState) {
-    console.log('getSnapshotBeforeUpdate prevProps');
-    console.log('getSnapshotBeforeUpdate prevState');
-  }
+  // getSnapshotBeforeUpdate(prevProps, prevState) {
+  //   console.log('getSnapshotBeforeUpdate prevProps');
+  //   console.log('getSnapshotBeforeUpdate prevState');
+  // }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log('componentDidUpdate prevState');
-    console.log('>componentDidUpdate');
-  }
+  // componentDidUpdate(prevProps, prevState, snapshot) {
+  //   console.log('componentDidUpdate prevState');
+  //   console.log('>componentDidUpdate');
+  // }
 
   // shouldComponentUpdate(nextProps, nextState) {
   // }
 
-  componentDidCatch(error, info) {
-    // fallback UI
-    console.error(error);
-    console.info(info);
-  }
+  // componentDidCatch(error, info) {
+  //   // fallback UI
+  //   console.error(error);
+  //   console.info(info);
+  // }
 
 
-  setState(state, callback) {
-    console.log('=======================================state');
-    console.log('state=======================================');
-    super.setState(state, callback);
-  }
+  // setState(state, callback) {
+  //   console.log('=======================================state');
+  //   console.log('state=======================================');
+  //   super.setState(state, callback);
+  // }
+
+  // componentWillUnmount() {
+  //   clearInterval(this.interval);
+  // }
 
   @action
   async fetchHistoryFromApi(accountAddr){
@@ -91,14 +102,10 @@ const walletListStyles = StyleSheet.create({
 
   @action
   async fetchFromApi(addr, pubKey, priKey) {
-    let resPromise = this.props.listService.ExListPost();
+    let resPromise = this.props.listStore.ExListPost();
     await resPromise.then( (promiseData) => {
 
     });
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval);
   }
 
   @action
@@ -108,13 +115,28 @@ const walletListStyles = StyleSheet.create({
 
   render() {
     const { navigate } = this.props.navigation;
-    // console.log(this.props.navigation);
     return (
-      <View style={{ flexDirection: 'row' }}>
-        <View style={walletListStyles.optionIconContainer}>
-          <Text>!!</Text>
-        </View>
-      </View>
+      <FlatList
+        data={this.state.data}
+        renderItem={({ item }) =>
+          <Touchable
+            style={walletListStyles.option}
+            background={Touchable.Ripple('#ccc', false)}
+            onPress={() => {
+              navigate('detail', { selectItemName: item })
+            }}>
+            <View style={{ flexDirection: 'row' }}>
+              <View style={{ flexDirection: 'row' }}>
+                <View style={walletListStyles.optionIconContainer}>
+                  <Text>{item}</Text>
+                </View>
+              </View>
+            </View>
+          </Touchable>
+        }
+        keyExtractor={(item, index) => index.toString()}
+        extraData={this.state}
+      />
     );
   }
 

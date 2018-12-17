@@ -12,9 +12,9 @@ describe('components snapshot', () => {
   });
 
   it('should renders List component', () => {
-    const store = new ListEx();
+    const listStore = new ListEx();
     const navigation = { navigate: jest.fn() };
-    const renderedJson = renderer.create(<List listService={store} navigation={navigation} />).toJSON();
+    const renderedJson = renderer.create(<List listStore={listStore} navigation={navigation} />).toJSON();
 
     expect(renderedJson).toMatchSnapshot();
   });

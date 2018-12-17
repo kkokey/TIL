@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Detail screen should renders AppDetail 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#f2f2f2",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <Text>
+          Detail
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

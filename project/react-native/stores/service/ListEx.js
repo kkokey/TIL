@@ -5,7 +5,7 @@ import Wallet from '../model/modelEx';
 class ListEx {
   constructor() {
     this.state = {
-      wallets: []
+      listEx: []
     };
     /* new ListModel() ... */
   }
@@ -26,8 +26,6 @@ class ListEx {
     return await new Promise((resolve, reject) => {
       axios.get('http://188.166.232.232:8080/weatherlist')
         .then(res => {
-          console.log(res.data);
-
           resolve(res.data);
         }).catch(error => {
           reject(error)

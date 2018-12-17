@@ -2,10 +2,21 @@
 
 exports[`components snapshot should renders List component 1`] = `
 <RCTScrollView
+  data={
+    ListEx {
+      "state": Object {
+        "listEx": Array [],
+      },
+    }
+  }
   disableVirtualization={false}
   extraData={
     Object {
-      "data": undefined,
+      "data": ListEx {
+        "state": Object {
+          "listEx": Array [],
+        },
+      },
       "name": "",
       "refreshing": false,
     }
