@@ -7,7 +7,7 @@ object WeatherNoti {
     val url = "http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastSpaceData"
     val response: HttpResponse[String] = Http(url)
       .header("Content-Type","application/json;charset=UTF-8")
-      .param("serviceKey","[KEY]")
+      .param("serviceKey","FUyJph70P0YW0UHY5Ac9dqg08PRXqSoh05WS2SHPT/V0954wS1qpiR+dLt1djwmibD2O9QSwx1h/rLxEaWv/Zg==")
       .param("base_date","20181212")
       .param("base_time","0800")
       .param("nx","58")
@@ -38,7 +38,7 @@ object WeatherNoti {
         rs = jsonData.get(key)
         val notiRes: HttpResponse[String] = Http("https://notify-api.line.me/api/notify")
           .header("content-type", "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW")
-          .header("Authorization", "Bearer [AUTH KEY]")
+          .header("Authorization", "Bearer 8U86kbcl4E5UjL9qc3zl8gX5cRLY9zAXLzDj6JQbugw")
           .postData("------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"message\"\r\n\r\n온도:"+rs+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--")
           .asString
       }
