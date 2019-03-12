@@ -57,9 +57,9 @@
  indent를 여러줄에 주는 방법
  ( 아래 순서대로 따라하면 됩니다! )
 
-   press ctrl+v
-   select columns
-   press shift+i
-   write your text
-   press esc
-   press "jj"
+ 1. press ctrl+v
+ 2. select columns
+ 3. press shift+i
+ 4. write your text
+ 5. press esc
+ 6. press "jj"
