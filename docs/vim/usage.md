@@ -51,3 +51,15 @@
  ----
  사용하면서 필요하여 추가한 내용
  - Ctrl + v : blockwise-visual mode
+
+
+ ----
+ indent를 여러줄에 주는 방법
+ ( 아래 순서대로 따라하면 됩니다! )
+
+   press ctrl+v
+   select columns
+   press shift+i
+   write your text
+   press esc
+   press "jj"
