@@ -18,7 +18,7 @@
     "babel-preset-react-native": "^4.0.1",
     "eslint": "^5.10.0",
     "eslint-plugin-react": "^7.11.1",
-    "expo": "^31.0.2",
+    "expo": "^46.0.14",
     "jest": "^23.6.0",
     "jest-expo": "^31.0.0",
     "metro-react-native-babel-preset": "^0.48.5",
